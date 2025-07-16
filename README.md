@@ -1,17 +1,13 @@
 # Exception-handling-reconciliation
 
-**Production checkpoint** → <https://huggingface.co/kelvi23/DistilBERT-Reconciler>
-
-Legacy baseline (BERT) → <https://huggingface.co/kelvi23/bert-breaks-v0>
-
 **Model zoo**
 
-| Model | HF Hub |
-|-------|--------|
-| DistilBERT-Reconciler | https://huggingface.co/kelvi23/DistilBERT-Reconcile |
-| BERT baseline | https://huggingface.co/Coreledger/bert-breaks-v0 |
-| Fail-forecasting XGB/LGBM | https://huggingface.co/Coreledger/fails-forecasting-v1 |
-| RapidFuzz matcher | https://huggingface.co/Coreledger/fuzzy-matcher |
+| Asset                     | Hugging Face link                                                                                                                |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| DistilBERT-Reconciler     | [https://huggingface.co/kelvi23/DistilBERT-Reconciler](https://huggingface.co/kelvi23/DistilBERT-Reconciler)         |
+| **BERT baseline**         | [https://huggingface.co/Coreledger/bert-breaks-v0](https://huggingface.co/Coreledger/bert-breaks-v0)                             |
+| Next-day fails forecaster | [https://huggingface.co/kelvi23/Streaming-fail-forecaster](https://huggingface.co/kelvi23/Streaming-fail-forecaster)             |
+| Settlement-stress flagger | [https://huggingface.co/kelvi23/settlement-stress-flagger-v1](https://huggingface.co/kelvi23/settlement-stress-flagger-v1) |
 
 
 Financial institutions face significant challenges in post-trade reconciliation,  matching internal trade records with external data,  due to high volumes, complex data formats, and strict regulatory deadlines. Manual exception handling is error-prone and time-consuming, leading to inconsistencies that can result in financial misstatements or regulatory penalties [highradius.com](https://www.highradius.com/resources/Blog/trade-reconciliation/#:~:text=Trade%20reconciliation%20plays%20a%20vital,a%20loss%20of%20investors%20confidence). This project addresses these challenges by automating **trade break detection and reconciliation** in fixed-income workflows. We leverage machine learning (ML) and advanced data pipelines to detect discrepancies (“breaks”), classify their root causes, and recommend resolutions, all while maintaining a tamper-proof audit trail for compliance. A domain-adapted **DistilBERT model** has been fine-tuned on millions of historical break-resolution pairs, achieving high accuracy (≈88% micro-F1) in classifying exception root causes and suggesting fixes. We also developed a fuzzy matching micro-service using RapidFuzz to link external tickets to internal trade IDs with over 96% accuracy, and a prototype dashboard for real-time break triage and monitoring.
