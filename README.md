@@ -11,8 +11,9 @@
 | Next-day fails forecaster | [https://huggingface.co/kelvi23/Streaming-fail-forecaster](https://huggingface.co/kelvi23/Streaming-fail-forecaster)             |
 | Settlement-stress flagger | [https://huggingface.co/kelvi23/settlement-stress-flagger-v1](https://huggingface.co/kelvi23/settlement-stress-flagger-v1) |
 
+___
 
-Executive Summary 
+## Executive Summary 
 Financial institutions face significant challenges in post-trade reconciliation, matching internal trade records with external data, due to high volumes, complex data formats, and strict regulatory deadlines. Manual exception handling is error-prone and time-consuming, leading to inconsistencies that can result in financial misstatements or regulatory penalties [highradius.com](https://www.highradius.com/resources/Blog/trade-reconciliation/#:~:text=Trade%20reconciliation%20plays%20a%20vital,a%20loss%20of%20investors%20confidence). This project addresses these challenges by automating trade break detection and reconciliation in fixed-income workflows.
 
 To ensure the safe and compliant use of sensitive internal and external reconciliation data, we will leverage our internal privacy solution, PrivacyGuard. PrivacyGuard automatically identifies and anonymizes personally identifiable information (PII), laying a robust foundation for secure data sharing and future public data initiatives. This proactive approach strengthens our compliance posture while facilitating seamless integration and collaboration.
