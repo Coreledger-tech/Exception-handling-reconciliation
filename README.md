@@ -18,5 +18,6 @@ In summary, the project has delivered a working suite of AI-powered reconciliati
 
 
 ## Citation
+Musodza, K. (2025). Bond Settlement Automated Exception Handling and Reconciliation. Zenodo. https://doi.org/10.5281/zenodo.16828730
+Coreledger Technologies Inc (2025)
 
-> Kelvin Musodza, *Exception Handling & Reconciliation for Fixed-Income Trading*, Coreledger (2025). DOI: 10.5281/zenodo.1234567
