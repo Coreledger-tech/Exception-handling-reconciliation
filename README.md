@@ -1,4 +1,6 @@
-# Exception-handling-reconciliation
+# AI Powered Bond Post-Trade Break Detection & Resolution
+
+<img src="./settlement_reconcilliation_workflow.png" alt="Exception-handling-reconciliation workflow">
 
 **Model zoo**
 
