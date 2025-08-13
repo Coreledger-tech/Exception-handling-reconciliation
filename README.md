@@ -25,5 +25,6 @@ This white paper outlines our comprehensive initiative to automate exception han
 
 ## Citation
 Musodza, K. (2025). Bond Settlement Automated Exception Handling and Reconciliation. Zenodo. https://doi.org/10.5281/zenodo.16828730
+
 Coreledger Technologies Inc (2025)
 
